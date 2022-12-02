@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 
+	middlewares "github.com/Hekkydev/go-mongodb/handlers"
+	"github.com/Hekkydev/go-mongodb/routes"
 	"github.com/fatih/color"
 	"github.com/rs/cors"
-	middlewares "github.com/umangraval/Go-Mongodb-REST-boilerplate/handlers"
-	"github.com/umangraval/Go-Mongodb-REST-boilerplate/routes"
 )
 
 func hello(w http.ResponseWriter, req *http.Request) {

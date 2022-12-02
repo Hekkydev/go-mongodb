@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
+	middlewares "github.com/Hekkydev/go-mongodb/handlers"
 	"github.com/fatih/color"
-	middlewares "github.com/umangraval/Go-Mongodb-REST-boilerplate/handlers"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

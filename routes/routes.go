@@ -3,9 +3,9 @@ package routes
 import (
 	"net/http"
 
+	"github.com/Hekkydev/go-mongodb/controllers"
+	middlewares "github.com/Hekkydev/go-mongodb/handlers"
 	"github.com/gorilla/mux"
-	"github.com/umangraval/Go-Mongodb-REST-boilerplate/controllers"
-	middlewares "github.com/umangraval/Go-Mongodb-REST-boilerplate/handlers"
 )
 
 // Routes -> define endpoints

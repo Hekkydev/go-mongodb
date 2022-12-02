@@ -9,11 +9,11 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Hekkydev/go-mongodb/db"
+	middlewares "github.com/Hekkydev/go-mongodb/handlers"
+	"github.com/Hekkydev/go-mongodb/models"
+	"github.com/Hekkydev/go-mongodb/validators"
 	"github.com/gorilla/mux"
-	"github.com/umangraval/Go-Mongodb-REST-boilerplate/db"
-	middlewares "github.com/umangraval/Go-Mongodb-REST-boilerplate/handlers"
-	"github.com/umangraval/Go-Mongodb-REST-boilerplate/models"
-	"github.com/umangraval/Go-Mongodb-REST-boilerplate/validators"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

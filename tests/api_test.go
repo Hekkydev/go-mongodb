@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/umangraval/Go-Mongodb-REST-boilerplate/routes"
+	"github.com/Hekkydev/go-mongodb/routes"
 )
 
 var rou = routes.Routes()
